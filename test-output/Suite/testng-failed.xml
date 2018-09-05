@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestNg(failed)">
+    <parameter name="InvalidUsername" value="subramanyamjuturu@gmail.com"/>
+    <parameter name="Username" value="subramanyamjuturu4@gmail.com"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="host" value="192.168.0.3"/>
+    <parameter name="packageName" value=""/>
+    <parameter name="InvalidPassword" value="Bonnechane@123"/>
+    <parameter name="Password" value="Bonnechance@123"/>
+    <classes>
+      <class name="com.DropBox.Task.Demo">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="uploadFileFunctionality" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.DropBox.Task.Demo -->
+    </classes>
+  </test> <!-- TestNg(failed) -->
+</suite> <!-- Failed suite [Suite] -->
